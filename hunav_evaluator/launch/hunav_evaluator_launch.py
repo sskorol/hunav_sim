@@ -39,7 +39,7 @@ def generate_launch_description():
 
     hunav_evaluator_node = Node(
         package='hunav_evaluator',
-        executable='hunav_evaluator_node',
+        executable='hunav_evaluator_node.py',
         output='screen',
         parameters=[metrics_file]
         #arguments=['--ros-args', '--params-file', conf_file]
